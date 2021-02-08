@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: rgb(141, 57, 57);
+    font-weight: bolder;
+    font-size: larger;
+}
+
+h1 { 
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+#survey-form {
+background-color: rgb(243, 170, 170);
+font-size: x-large;
+border: solid dimgray 5px;
+padding: 20px;
+margin: 50px;
+text-align: center;
+}
+</style>
+
+</head>
+
+<body>
+    <h1 id="title">February Reading Challenge</h1>
+    <p id="description">Complete this survey to log your total books read for February.</p>
+    <form id="survey-form">
+        <label for="name" id="name-label">What is your name?</label>
+        <br>
+        <input id="name" type="text" placeholder="name" required>
+<br>
+<br>
+        <label for="email" id="email-label">Enter your email:</label>
+        <br>
+        <input id="email" type="email" placeholder="email" required>
+<br>
+<br>
+        <label for="number" id="number-label">How many books have you read this month?</label>
+        <br>
+        <input id="number" type="number" min="0" max="999" placeholder="a lot?" required>
+<br>
+<br>
+        <label for="dropdoown" id="dropdown-label">Where did you read the most books?</label>
+        <br>
+        <select id="dropdown" name="place-to-read" required>
+            <option value="room">my room</option>
+            <option value="outside">outside</option>
+            <option value="family">the living room</option>
+            <option value="school">at school</option>
+        </select>
+        <br>
+        <br>
+        <label for="radio" id="radio-label">Who is your English teacher?</label>
+        <br>
+        <input id="jones" type="radio" name="teacher" value="jones">
+        <label for="jones">Mrs. Jones</label>
+        <input id="smith" type="radio" name="teacher" value="smith">
+        <label for="smith">Mr. Smith</label>
+        <input id="gorlanski" type="radio" name="teacher" value="gorlanski">
+        <label for="gorlanski">Ms. Gorlanski</label>
+        <br>
+        <br>
+
+        <label for="checkbox" id="checkbox-label">Which other months have you participated in the reading challenge?</label>
+        <br>
+        <input id="sept" type="checkbox" name="sept" value="September">
+        <label for="sept">September</label>
+        <input id="oct" type="checkbox" name="oct" value="October">
+        <label for="oct">October</label>
+        <input id="nov" type="checkbox" name="nov" value="November">
+        <label for="nov">November</label>
+        <input id="dec" type="checkbox" name="dec" value="December">
+        <label for="dec">December</label>
+        <input id="jan" type="checkbox" name="jan" value="January">
+        <label for="jan">January</label> 
+        <br>
+        <br>
+        <label for="comments" id="comments-label">Do you have any additional comments?</label>
+        <br>
+        <br>
+        <textarea id="comments" name="comments" rows="4" cols="100">Please tell us what you liked or suggest improvements </textarea>
+        <br>
+        <br>
+        <button type="submit" id="submit">Submit</button>
+
+        <p>Thank you, and good luck!</p>
+    </form>
+
+    <p>Keep on reading!</p>
+</body>
+
+</html>
