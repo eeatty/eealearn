@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en"
+<html>
+<head>
+  <style>
+#navbar {
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  overflow-x: hidden;
+  padding: 20px;                 
+  font-size: 25px;
+  Margin: 10px;
+  text-align: center;
+}
+.nav-link {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+.nav-link:hover {
+  background-color: teal;
+}
+#main-doc {
+  margin-left: 200px;
+  padding: 0 10px;
+}
+@media screen and (max-height: 450px) {
+  .nav-link {padding-top: 15px;}
+  .nav-link a {font-size: 18px;}
+}
+header {
+  color: teal;
+  font-weight: bold;
+}
+.main-section {
+  font-size: 21px;
+  margin: 10px;
+}
+h1 {
+  text-align: center;
+  background-color: rgb(166, 240, 240);
+
+}
+</style>
+<title>Curriculum Project</title>
+</head>
+<nav id="navbar">
+  <header>RTAF</header>
+  <a class="nav-link" href="#Description">Description</a>
+  <a class="nav-link" href="#LitReview">Literature Review</a>
+  <a class="nav-link" href="#PDGoals">PD Goals</a>
+  <a class="nav-link" href="#Evidence">Evidence</a>
+  <a class="nav-link" href="#References">References</a>
+</nav>
+<main id="main-doc">
+<h1>Curriculum Project Proposal</h1>
+
+<section id="Description" class="main-section">
+<header>Description</header>
+</section>
+
+<section id="LitReview" class="main-section">
+<header>Literature Review</header>
+</section>
+
+<section id="PDGoals" class="main-section">
+<header>Professional Development Goals</header>
+</section>
+
+<section id="Evidence" class="main-section">
+<header>Evidence</header>
+</section>
+
+<section id="References" class="main-section">
+<header>References</header>
+</section>
+</main>
+
+</html>
