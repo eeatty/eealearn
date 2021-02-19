@@ -1,122 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" class="has-navbar-fixed-top">
 <head>
-  <meta charset="utf-8">
-  <title>EEA Learn</title>
-  <meta name="description" content="portfolio">
+  <meta charset="utf-8">    
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EEA Learn</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
   <style>
-header {
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: black;
-  overflow: hidden;
-  padding: 5px;
-  font-size: 20px;
-  margin: 10px;
-  text-align: center;
-}
-body {
-  margin-top: 70px;
-  padding: 10px;
-  background-color: #E3FCFA;
-  font-size: large;
-}
-.nav-link {
-  float: left;
-  padding: 10px;
-  text-decoration: none;
-  font-size: 25px;
-  color: white;
-  display: block;
-}
-.nav-link:hover {
-  background-color: teal;
-}
-.project-tile {
-    margin: 15px;
-    float: left;
-    display: block;
-    padding: 10px;
-    font-size: 20px;
-}
- .find-me {
-     margin: 5px;
-     float: left;
-     padding: 5px;
-     text-decoration: none;
-     background-color: teal;
-     color: white;
-     border-radius: 10px;
-     font-size: medium;
-  }
-  .contact {
-  color: white;
-  text-decoration: none;
-  }
-  .return {
-    background-color: black;
-    position: fixed;
-    float: right;
-    bottom: 0;
-    right: 0;
-    overflow: hidden;
-    padding: 5px;
-    font-size: 15px;
-    margin: 10px;
-    text-align: center;
-    filter:opacity(70%)
-  }
-  .flex-grid {
-    display: flex;
-  }
-  .col {
-    flex: 1;
-  }
- #welcome-section {
-   display: inline-block;
- }
- #find-me {
-   display: inline-block;
- }
- @media screen and (max-width: 600px) {
-  header {
-      display: none;
-     }
-     .flex-grid {
-       display: flex;
-       flex-direction: column;
-     }
-  }
-    </style>
+    body {
+      background-color: #E3FCFA;
+      font-size: large;
+    }
+    .find-me {
+        margin: 5px;
+        padding: 5px;
+        text-decoration: none;
+        background-color: teal;
+        border-radius: 10px;
+      }
+    .contact {
+      color: white;
+      text-decoration: none;
+      font-size: medium;
+    }
+  </style>
 </head>
-
-
-<header>
-  <nav id="navbar">
-    <a class="nav-link" href="#K12">K12 Education</a>
-    <a class="nav-link" href="#projects">Coding Projects</a>
-    <a class="nav-link" href="#find-me">Find Me</a>
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand"><p><strong> EEA Learn </strong></p>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+    </div>
+    <div class="navbar-menu is-active">
+      <div class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="#K12">K12 Education</a>
+          <a class="navbar-item" href="#projects">Coding Projects</a>
+          <a class="navbar-item" href="#find-me">Find Me</a>
+        </div>          
+        <div class="navbar-end">
+            <a class="navbar-item" href="https://www.eealearn.com/">Home</a>
+        </div>
+      </div>
+    </div>
   </nav>
-</header>
+
 <body>
-  <div id="welcome-section">
-    <h1>Emily Atwood's Portfolio</h1>
-    <h2>Welcome</h2>
+  <div class="section">
+    <h1 class="title">Emily Atwood's Portfolio</h1>
+    <h2 class="subtitle">Welcome</h2>
     <p>As an educator with 18 years of experience, I am seeking a position that will allow me to positively contribute to the profession in while working with curriculum development and educational leadership. </p>
+    <br>
     <p>I have a wide variety of experiences in K-12 with special education, gifted education, ELA, PBIS, restorative practices, providing professional development, and as a team lead. During my doctoral program in curriculum and instruction, I have become an expert in pedagogy and how to effectively structure learning experiences. In order to further develop my ability to create and deliver pedagogical and age-appropriate curriculum, I have recently begun learning to code.</p>
+  </div>
+
+  <div class="tile is-ancestor">
+    <div id="K12" class="tile is-parent">
+      <h2 class="subtitle">K-12 Education</h2>
+      <div class="tile is-child"><img src="img/previewCP.jpg" alt="preview of project"><br><a target="_blank" href="https://www.eealearn.com/curricProject.html">Curriculum Design Project Propsal</a></div>
+      <div class="tile is-child"><img src="img/" alt="preview of project"><br><a href="https://www.eealearn.com/curricEval.html">Curriculum Project Evaluation</a></div>
     </div>
-  <div class="flex-grid">
-    <div id="K12" class="col">
-      <h2>K-12 Education</h2>
-      <div class="project-tile"><img src="img/previewCP.jpg" height="150px" alt="preview of project"><br><a target="_blank" href="https://www.eealearn.com/curricProject">Curriculum Design Project</a></div>
-    </div>
-   <div id="projects" class="col">
-    <h2>Coding Projects</h2>
-    <div class="project-tile"><img src="img/previewRTAF.jpg" height="150px" alt="preview of RTAF"><br><a target="_blank" href="https://www.eealearn.com/rtaf.html">RTAF</a></div>
-    <div class="project-tile"><img src="img/previewSurvey.jpg" height="150px" alt="preview of survey"><br><a target="_blank" href="https://www.eealearn.com/survey.html">Reading Survey</a></div>
+    <div id="projects" class="tile is-parent">
+      <h2 class="subtitle">Coding Projects</h2>
+      <div class="tile is-child"><img src="img/previewRTAF.jpg" alt="preview of RTAF"><br><a target="_blank" href="https://www.eealearn.com/rtaf.html">Beginning HTML5</a></div>
+      <div class="tile is-child"><img src="img/previewSurvey.jpg" alt="preview of survey"><br><a target="_blank" href="https://www.eealearn.com/survey.html">Survey Design</a></div>
   </div>
 </div>
 
@@ -127,5 +75,4 @@ body {
    <button class="find-me"><a class="contact" target="_blank" href="https://www.linkedin.com/in/emily-atwood-97852199/">LinkedIn</a></button>
 </div> 
 </body>
-    <footer><button class="return"><a class="contact" href="https://www.eealearn.com/">Return to Main</a></button></footer>
 </html>
