@@ -61,20 +61,21 @@
     <br>
   </div>
   
-  <div class="container is-fluid">
+  <div class="container">
     <h1 class="subtitle">Artifacts</h1>
     <p>This page will collect and hold artifacts of my various skills and interests. As my skills and thoughts evolve, I'll update the relevant information. You can expect, for instance, that the layout of the main site and educational artifacts will evolve.
       In the interest of keeping a record of my coding progress, earlier projects will remain as-is while I show my progress with new artifacts.
     <br>
     </p>
-    <div class="container is-fluid">
-      <div id="K12" class="tile is-ancestor is-vertical">
-        <div  class="tile is-child">
+    <div class="container">
+      <div id="K12" class="tile is-ancestor">
+        
+        <div id="K12artifacts" class="tile is-parent is-vertical">
+        <div class="tile is-child">
           <br>
-      <h2 class="subtitle"><strong>K-12 Education</strong></h2>
-        </div>
-        <div id="K12artifacts" class="tile is-parent">
-          <div id="curricDesign" class="tile is-child">
+          <h2 class="subtitle"><strong>K-12 Education</strong></h2>
+        </div>  
+        <div id="curricDesign" class="tile is-child">
             <article class="media box">
             <figure class="media-left">
                 <p class="image is-128x128 box">
@@ -103,8 +104,28 @@
                 </p>
               </div>
             </article>
+          </div>
+            
+            <div id="tech" class="tile is-child">
+              <article class="media box">
+                <figure class="media-left">
+                    <p class="image is-128x128 box">
+                      <img src="img/previewTech.jpg" alt="preview of lesson plan">
+                    </p>
+                  </figure>
+                <div class="media-content">
+                <p><strong><a target="_blank" href="https://www.eealearn.com/techIntegration.html">Technology Integration Plan</a></strong>
+                  <br>
+                  This lesson is one I've taught through several revisions to 8th graders. This plan for one of my doctoral classes describes the role of technology in the course including automated features and how it enhances collaboration.
+                </p>
+                </div>
+              </article>
+            </div>
+        </div>
 
-            <div id="conference" class="tile is-child">
+        <div class="tile is-parent">
+          <div id="conference" class="tile is-child">
+            <br><br><br>
             <article class="media box">
               <figure class="media-left">
                   <p class="image is-128x128 box">
@@ -119,24 +140,13 @@
               </p>
               </div>
             </article>
-            
-            <div id="conference" class="tile is-child">
-              <article class="media box">
-                <figure class="media-left">
-                    <p class="image is-128x128 box">
-                      <img src="img/previewTech.jpg" alt="preview of lesson plan">
-                    </p>
-                  </figure>
-                <div class="media-content">
-                <p><strong><a target="_blank" href="https://www.eealearn.com/techIntegration.html">Technology Integration Plan</a></strong>
-                  <br>
-                  This lesson is one I've taught through several revisions to 8th graders. This plan for one of my doctoral classes describes the role of technology in the course including automated features and how it enhances collaboration.
-                </p>
-                </article>
           </div>
         </div>
       </div>
+      <br>
+    </div>
 
+    <div class="container">
       <div id="projects" class="tile is-ancestor is-vertical">
         <div class="tile is-child">
         <h2 class="subtitle"><strong>Coding Projects</strong></h2>
@@ -178,7 +188,6 @@
       </div>
     </div>
   </div>
-
 </body>
 
 <footer>
@@ -192,4 +201,5 @@
     <button class="find-me button is-rounded"><a class="contact" target="_blank" href="https://twitter.com/dahlingemmi">Twitter</a></button>
   </div> 
 </footer>
+
 </html>
