@@ -9,6 +9,7 @@
             body {
                 background-color: #E3FCFA;
                 font-size: large;
+                text-align: center;
             }
         </style>
     </head>
@@ -34,7 +35,8 @@
       </nav>
 
   <body>
-        <h1 class="title" id="game"> Typing Game</h1>
+        <div class="section" id="game">
+        <h1 class="title"> Typing Game</h1>
         <p>Practice your typing skills with a quote from Jane Austen. Click *start* to begin!</p>
         <br>
         <p id="quote"></p>
@@ -46,7 +48,13 @@
             <button type="button" id="start">Start</button>
             <br>
         </div>
-    
+        </div>
+
+        <div class="section" id="image">
+            <div class="container box">
+                <img src="img/austen.jpeg" alt="a stack of books written by Jane Austen">
+            </div>
+        </div>
         <script src="./typingGame.js"></script>
   </body>
 

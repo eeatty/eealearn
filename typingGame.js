@@ -19,7 +19,23 @@ const quotes = [
     'Without music, life would be a blank to me.',
     'To be fond of dancing was a certain step towards falling in love.',
     'There are people, who the more you do for them, the less they will do for themselves.',
-
+    'One man’s style must not be the rule of another’s.',
+    'It is not time or opportunity that is to determine intimacy; it is disposition alone. Seven years would be insufficient to make some people acquainted with each other, and seven days are more than enough for others.',
+    'It is very difficult for the prosperous to be humble.',
+    'I do not want people to be very agreeable, as it saves me the trouble of liking them a great deal.',
+    'There is nothing I would not do for those who are really my friends. I have no notion of loving people by halves; it is not my nature.',
+    'If I loved you less, I might be able to talk about it more.',
+    'There are as many forms of love as there are moments in time.',
+    'Give him a book, and he will read all day long.',
+    'Angry people are not always wise.',
+    'But people themselves alter so much, that there is something new to be observed in them forever.',
+    'The distance is nothing when one has motive.',
+    'Do anything rather than marry without affection.',
+    'What are young men to rocks and mountains?',
+    'Their eyes instantly met, and the cheeks of both were overspread with the deepest blush.',
+    'She was convinced that she could have been happy with him, when it was no longer likely they should meet.',
+    'Till this moment I never knew myself.',
+    'My good opinion once lost, is lost forever.',
 ];
 
 let words = [];
@@ -54,7 +70,7 @@ typedValueElement.addEventListener('input', () => {
     
      if (typedValue === currentWord && wordIndex === words.length - 1) {
          const elapsedTime = new Date().getTime() - startTime;
-         const message = `CONGRATULATIONS! You finished in ${elapsedTime / 1000} seconds.`;
+         const message = `Nice typing! You finished in ${elapsedTime / 1000} seconds.`;
     messageElement.innerText = message;
   } else if (typedValue.endsWith(' ') && typedValue.trim() === currentWord) {
       typedValueElement.value = '';   
