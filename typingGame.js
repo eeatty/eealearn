@@ -1,11 +1,25 @@
 const quotes = [
-    'When you have eliminated the impossible, whatever remains, however improbable, must be the truth.',
-    'There is nothing more deceptive than an obvious fact.',
-    'I ought to know by this time that when a fact appears to be opposed to a long train of deductions it invariably proves to be capable of bearing some other interpretation.',
-    'I never make exceptions. An exception disproves the rule.',
-    'What one man can invent another can discover.',
-    'Nothing clears up a case so much as stating it to another person.',
-    'Education never ends, Watson. It is a series of lessons, with the greatest for the last.',
+    'It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.',
+    'I hate to hear you talk about all women as if they were fine ladies instead of rational creatures. None of us want to be in calm waters all our lives.',
+    'It isn’t what we say or think that defines us, but what we do.',
+    'Indulge your imagination in every possible flight.',
+    'Selfishness must always be forgiven you know, because there is no hope of a cure.',
+    'Vanity working on a weak head, produces every sort of mischief.',
+    'Nobody minds having what is too good for them.',
+    'We have all a better guide in ourselves, if we would attend to it, than any other person can be.',
+    'Happiness in marriage is entirely a matter of chance.',
+    'The person, be it gentleman or lady, who has not pleasure in a good novel, must be intolerably stupid.',
+    'One half of the world cannot understand the pleasures of the other.',
+    'Let me know when you begin the new tea, and the new white wine. My present elegances have not yet made me indifferent to such matters. I am still a cat if I see a mouse.',
+    'We are to have a tiny party here tonight. I hate tiny parties, they force one into constant exertion.',
+    'There is safety in reserve, but no attraction. One cannot love a reserved person.',
+    'Nothing ever fatigues me but doing what I do not like.',
+    'Laugh as much as you choose, but you will not laugh me out of my opinion.',
+    'For what do we live, but to make sport for our neighbors, and laugh at them in our turn?',
+    'Without music, life would be a blank to me.',
+    'To be fond of dancing was a certain step towards falling in love.',
+    'There are people, who the more you do for them, the less they will do for themselves.',
+
 ];
 
 let words = [];
